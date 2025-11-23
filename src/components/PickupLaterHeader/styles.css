@@ -1,0 +1,20 @@
+.page-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page-title img {
+  width: 20px;
+  height: 20px;
+}
+
+.page-title h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}

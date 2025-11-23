@@ -1,0 +1,102 @@
+.title-page {
+  text-align: center;
+  padding: 30px 20px 20px 20px;
+  background-color: #fff;
+}
+
+.title-page h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.paragraph {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+
+.table-representation {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: 0;
+}
+
+.table-representation tr {
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.table-representation tr:last-child {
+  border-bottom: none;
+}
+
+.table-representation td {
+  padding: 18px 0;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.month {
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+  flex: 1;
+  min-width: 120px;
+}
+
+.day {
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  width: 50px;
+}
+
+.hour {
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  width: 50px;
+  margin: 0 10px;
+}
+
+.period {
+  color: #666;
+  text-align: center;
+  width: 40px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Linha ativa - estilo destacado */
+.table-representation tr.active-table {
+  background-color: #007bff;
+  margin: 0 10px;
+  border-radius: 10px;
+  border-bottom: none;
+}
+
+.table-representation tr.active-table td {
+  color: #fff;
+}
+
+.table-representation tr.active-table .period {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bottom-next {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
