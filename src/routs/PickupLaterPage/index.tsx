@@ -8,9 +8,8 @@ export default function PickupLaterPage() {
     return (
         <>
         <PickupLaterHeader />
-        <PickupLaterBar />
         <SchenduleLater />
-        <ButtonNext />
+
         <Footer />
         </>
     );

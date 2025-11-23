@@ -12,6 +12,8 @@
     background-color: #efefef;
     padding: 14px 18px;
     border-radius: 30px;
+    
+    gap: 8px;
 }
 
 .current-container img,
@@ -29,4 +31,8 @@
     font-size: 15px;
     width: 100%;
     color: #333;
+}
+
+.pickup-later-bar-container{
+    width: 9rem;
 }
