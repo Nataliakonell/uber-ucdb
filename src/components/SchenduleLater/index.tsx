@@ -3,8 +3,15 @@ import PickupLaterBar from '../PickupLaterBar';
 import current from './../../assets/current.png'
 import location from './../../assets/location.png'
 import './styles.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function SchenduleLater() {
+    const navigate = useNavigate();
+
+        const handleNextClick = () => {
+        navigate('/schedulePage');
+        };
+
     return (
         <>
         <div className= "pickup-later-bar-container">
@@ -20,8 +27,8 @@ export default function SchenduleLater() {
                 <img src={location} alt="location" />
                 <input type="text" name="location" id="" placeholder="Where to?" />
             </div>
-            <div className="button-next-container">
-                <ButtonNext />
+            <div className="button-next-container" onClick={() => navigate('/schedulePage')}>
+                < ButtonNext />
             </div>
             
         </div>

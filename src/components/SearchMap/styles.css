@@ -9,7 +9,7 @@
     font-weight: 600;
     color: #000;
     background-color: #dedede;
-    padding: 8px 12px;
+    padding: 8px 10px;
     border-radius: 10px;
 }
 
@@ -75,3 +75,5 @@ iframe:hover {
     border: none;
     filter: none;
 }
+
+

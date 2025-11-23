@@ -1,0 +1,85 @@
+.title-schedule {
+    gap: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.title-schedule h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.schedule-now,
+.schedule-pickup-later {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.schedule-now:hover,
+.schedule-pickup-later:hover {
+    border-color: #007bff;
+    background: #f8f9fa;
+}
+
+/* Ícones principais (clock e calendar) */
+.schedule-now img:first-of-type,
+.schedule-pickup-later img:first-of-type {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    margin-top: 4px;
+}
+
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-now h3,
+.schedule-pickup-later h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+}
+
+.schedule-now p,
+.schedule-pickup-later p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Ícone de seleção (check) */
+.schedule-now img:last-of-type,
+.schedule-pickup-later img:last-of-type {
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-left: auto;
+    align-self: center;
+}
+
+/* Estado selecionado */
+.schedule-now.selected,
+.schedule-pickup-later.selected {
+    border-color: #007bff;
+    background: #f0f8ff;
+}
+
+.schedule-now.selected img:last-of-type,
+.schedule-pickup-later.selected img:last-of-type {
+    opacity: 1;
+}

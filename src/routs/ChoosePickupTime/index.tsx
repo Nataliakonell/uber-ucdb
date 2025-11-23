@@ -8,7 +8,6 @@ export default function ChoosePickupTime() {
     <>
     <PickupLaterHeader />
     <ChooseDate />
-    <ButtonNext />
     <Footer />
     </>
     );
