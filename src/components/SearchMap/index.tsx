@@ -1,6 +1,7 @@
 import Footer from '../Footer';
 import PickupLaterBar from '../PickupLaterBar';
 import { useNavigate } from 'react-router-dom';
+import './../../App.css';
 import './styles.css';
 export default function SearchMap() {
     const navigate = useNavigate();
@@ -8,7 +9,7 @@ export default function SearchMap() {
 
 
 
-        <section>
+        <section className="container-teste">
 
             <div className="header-container">
 

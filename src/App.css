@@ -1,4 +1,6 @@
-/*#root {
+/* Estilos base do app */
+/*
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -19,4 +21,21 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+*/
 
+/* Container genérico reutilizável */
+.container {
+  width: 100%;
+  max-width: 1200px; /* ajuste conforme seu layout */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

@@ -16,10 +16,11 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* remove o padding para evitar scroll extra com footer fixo */
+  padding-bottom: 0;
+  overflow-x: hidden;
 }
 
 
@@ -31,4 +32,16 @@ body {
 }
 
 /* SEARCHMAP */
+
+/* Layout base para páginas ocupar 100% */
+html, body, #root {
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
 

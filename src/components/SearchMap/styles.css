@@ -67,6 +67,7 @@
 iframe {
     width: 100%;
     border: none;
+    height: 100vh;
     filter: brightness(0.8) contrast(1.2);
 }
 
